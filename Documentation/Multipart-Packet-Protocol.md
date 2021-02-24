@@ -17,6 +17,7 @@ How
 We can solve this issue by break up the original data into multiple packets that the receiving end will put pack together. This allows the receiving end to reconstruct the original data. Let's call each group of packets needed to reconstruct the original data a "packet_group".
 
 We can accomplish this by creating a packet structure like this:
+
 `packet_group_id:num_of_packets_in_group:this_packet_num_in_group:[Raw Data]`
 
 Let's go over in detail what each of these mean.
