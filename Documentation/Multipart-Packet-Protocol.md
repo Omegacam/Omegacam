@@ -19,7 +19,7 @@ We can solve this issue by break up the original data into multiple packets that
 
 We can accomplish this by creating a packet structure like this:
 
-`packet_group_id:group_packet_size:group_packet_num:[Raw Data]`
+`packet_group_id~group_packet_size~group_packet_num~[Raw Data]`
 
 Let's go over in detail what each of these mean.
 
